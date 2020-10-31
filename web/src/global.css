@@ -5,8 +5,14 @@
 }
 
 body {
-  display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   background-color: #13181d;
+}
+
+.landingBody {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
 }
