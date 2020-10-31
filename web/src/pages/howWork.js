@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/howWork.css';
+import '../global.css';
 import lofi from '../assets/lofipng.png';
 
 export default function HowWork() {

@@ -13,7 +13,7 @@ export default function Listeners() {
         determina os pontos, favorecendo artistas brasileiros e independentes.
         Os pontos são então convertidos em cotas de cashback em lojas online,
         ingressos de shows, merchandising de artistas, entre outros produtos.
-        Para artistas e gravadoras
+        Para artistas e gravadoras.
       </p>
     </div>
   );
