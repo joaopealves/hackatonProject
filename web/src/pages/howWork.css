@@ -14,10 +14,10 @@
   height: 100vh;
   justify-content: space-between;
   grid-template-columns: 50% 50%;
-  margin-left: 200px;
 }
+
 .howWork {
-  margin-left: 200px;
+  margin-left: 400px;
   max-height: 800px;
   max-width: 403px;
   color: white;

@@ -13,6 +13,11 @@
   font: 700 0.8rem 'Roboto';
 }
 
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
 .landingBody {
   width: 100vw;
   height: 100vh;
