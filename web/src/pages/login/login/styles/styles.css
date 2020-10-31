@@ -1,0 +1,101 @@
+.loginBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: #13181d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  background-color: rgba(228, 228, 228, 0.027);
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 6px solid white;
+}
+
+.loginContainer input {
+  width: 400px;
+  height: 40px;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.loginContainer input:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+input[type='email'],
+input[type='password'] {
+  border: 2px solid rgb(252, 252, 252);
+  background-color: rgba(255, 255, 255, 0.26);
+  color: rgb(255, 255, 255);
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 700 1rem 'Roboto';
+  transition: 0.8s;
+  text-align: center;
+}
+
+input[type='email']:focus,
+input[type='password']:focus {
+  width: 420px;
+}
+
+input[type='submit'] {
+  background-color: rgb(141, 1, 1);
+  color: white;
+  font: 700 1rem 'Roboto';
+  cursor: pointer;
+  transition: 0.8s;
+}
+input[type='submit']:hover {
+  background-color: rgb(197, 0, 0);
+}
+::placeholder {
+  color: rgb(218, 218, 218);
+}
+
+.loginWith {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginItem {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  width: 40px;
+}
+
+.Deezer {
+  width: 62px;
+}
+
+.Facebook {
+  width: 125px;
+}
+
+img:hover,
+.Deezer:hover,
+.Facebook:hover {
+  brightness: 0.5;
+}
