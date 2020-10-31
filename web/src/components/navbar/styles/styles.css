@@ -54,3 +54,22 @@
   font: 700 0.9rem 'Roboto';
   color: white;
 }
+
+.lofiImg {
+  width: 504px;
+}
+
+.tryButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: 4px solid white;
+  border-radius: 30px;
+  width: 521px;
+  height: 90px;
+  font: 700 1.6rem 'Roboto';
+  color: white;
+  transition: 0.8s;
+}
+.tryButton:hover {
+  background-color: white;
+  color: black;
+}

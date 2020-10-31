@@ -1,5 +1,30 @@
 .container {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.textContainer {
+  display: grid;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%;
+  margin-left: 200px;
+}
+.howWork {
+  margin-left: 200px;
+  max-height: 800px;
+  max-width: 403px;
+  color: white;
+  font: 700 1.2rem 'JetBrains Mono';
+  text-align: center;
+}
+
+h1 {
+  font: 700 2.5rem 'JetBrains Mono';
 }
