@@ -5,10 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('../../../../assets/background.jpg');
+  background-size: cover;
 }
 
 .loginContainer {
-  background-color: rgba(228, 228, 228, 0.027);
+  position: absolute;
+  background-color: rgba(228, 228, 228, 0);
   width: 70vw;
   height: 70vh;
   display: flex;
@@ -16,7 +19,7 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 20px;
-  border: 6px solid white;
+  /* border: 6px solid white; Borda de login*/
 }
 
 .loginContainer input {
@@ -34,7 +37,8 @@
 }
 
 input[type='email'],
-input[type='password'] {
+input[type='password'],
+input[type='text'] {
   border: 2px solid rgb(252, 252, 252);
   background-color: rgba(255, 255, 255, 0.26);
   color: rgb(255, 255, 255);
@@ -45,6 +49,7 @@ input[type='password'] {
   text-align: center;
 }
 
+input[type='text']:focus,
 input[type='email']:focus,
 input[type='password']:focus {
   width: 420px;
@@ -84,18 +89,52 @@ input[type='submit']:hover {
 
 img {
   width: 40px;
+  transition: 0.8s;
 }
 
 .Deezer {
   width: 62px;
+  transition: 0.8s;
 }
 
 .Facebook {
   width: 125px;
+  transition: 0.8s;
 }
 
 img:hover,
-.Deezer:hover,
 .Facebook:hover {
-  brightness: 0.5;
+  filter: brightness(0.7);
+}
+
+.Deezer:hover {
+  opacity: 0.9;
+}
+
+.loginContainer a {
+  color: rgb(204, 3, 3);
+  margin-top: 20px;
+  font: 700 1.2rem 'Roboto';
+  cursor: pointer;
+}
+
+.loginContainer a:hover {
+  color: rgb(209, 209, 209);
+}
+
+.loginTitle {
+  color: white;
+  font: 700 2.2rem 'Roboto';
+  margin-bottom: 20px;
+}
+
+.backIcon {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.backIcon:hover {
+  opacity: 0.7;
 }
