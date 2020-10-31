@@ -18,14 +18,12 @@ export default function Navbar() {
         </a>
         <a className="linkItem">Parceiros</a>
       </div>
-
-      <Routes>
-        <Link to="/login">
-          <button className="button buttonLogin">Login</button>
-        </Link>
-
+      <Link to="/login">
+        <button className="button buttonLogin">Login</button>
+      </Link>
+      <Link to="/register">
         <button className="button buttonRegister">Cadastro</button>
-      </Routes>
+      </Link>
     </div>
   );
 }
