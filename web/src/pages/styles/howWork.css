@@ -25,6 +25,25 @@
   text-align: center;
 }
 
+@media (max-width: 1400px) {
+  .textContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  .howWork {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font: 700 1.2rem 'JetBrains Mono';
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+}
 h1 {
   font: 700 2.5rem 'JetBrains Mono';
 }
