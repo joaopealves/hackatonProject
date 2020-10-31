@@ -1,0 +1,40 @@
+.benefitsContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.benefitsTextListeners {
+  margin-left: 15%;
+  font: 700 1.8rem 'Roboto';
+  color: white;
+  width: 40vw;
+  text-align: center;
+}
+
+.benefitsTextListeners h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.benefitsTextCompaines h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.benefitsTextCompaines {
+  text-align: center;
+  margin-left: 42%;
+  font: 700 1.8rem 'Roboto';
+  color: white;
+  width: 40vw;
+}
+
+@media (max-width: 1400px) {
+  .benefitsTextCompaines {
+    margin: 30%;
+  }
+  .benefitsTextListeners {
+    margin: 30%;
+  }
+}

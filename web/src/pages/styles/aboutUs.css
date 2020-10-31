@@ -1,0 +1,51 @@
+.aboutUsDiv {
+  width: 70vw;
+  height: 70vh;
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 30px;
+  border: 9px solid white;
+  display: flex;
+  align-items: center;
+}
+.aboutUsContainer {
+  display: grid;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+  justify-content: space-between;
+  grid-template-columns: 60% 40%;
+}
+
+.aboutUsText {
+  width: 500px;
+  font: 700 1.6rem 'JetBrains Mono';
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.aboutUsText h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1400px) {
+  .aboutUsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  /* .howWork {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font: 700 1.2rem 'JetBrains Mono';
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  } */
+}
