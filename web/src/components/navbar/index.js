@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/styles.css';
 import { Link } from 'react-router-dom';
+import Routes from '../../routes';
 
 export default function Navbar() {
   return (
@@ -12,13 +13,19 @@ export default function Navbar() {
         <a href="#AboutUs" className="linkItem">
           Quem somos
         </a>
-        <a className="linkItem">Parceiros</a>
         <a href="#Listeners" className="linkItem">
           Vantagens
         </a>
+        <a className="linkItem">Parceiros</a>
       </div>
-      <button className="button buttonLogin">Login</button>
-      <button className="button buttonRegister">Cadastro</button>
+
+      <Routes>
+        <Link to="/login">
+          <button className="button buttonLogin">Login</button>
+        </Link>
+
+        <button className="button buttonRegister">Cadastro</button>
+      </Routes>
     </div>
   );
 }

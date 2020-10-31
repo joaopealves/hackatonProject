@@ -27,6 +27,7 @@ function App() {
       <div className="body" id="Compaines">
         <Compaines />
       </div>
+
       <div className="body" id="Artists">
         <Artists />
       </div>
