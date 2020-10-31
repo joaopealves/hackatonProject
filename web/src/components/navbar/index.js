@@ -13,9 +13,18 @@ export default function Navbar() {
         <a href="#AboutUs" className="linkItem">
           Quem somos
         </a>
-        <a href="#Listeners" className="linkItem">
-          Vantagens
-        </a>
+
+        <div className="dropdown linkItem">
+          <button className=" dropbtn">
+            Vantagens
+            <i className="fa fa-caret-down"></i>
+          </button>
+          <div className="dropdown-content">
+            <a href="#Listeners">Ouvintes</a>
+            <a href="#Compaines">Empresas</a>
+            <a href="#Artists">Artistas</a>
+          </div>
+        </div>
         <a className="linkItem">Parceiros</a>
       </div>
       <Link to="/login">
