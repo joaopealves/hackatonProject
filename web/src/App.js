@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './global.css';
+import HowWork from './pages/howWork';
 import Landing from './pages/landing';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <Landing />
       </div>
       <div className="body">
-        <Landing />
+        <HowWork />
       </div>
     </>
   );

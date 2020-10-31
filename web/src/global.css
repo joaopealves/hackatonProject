@@ -4,15 +4,24 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 90vw;
-  height: 100vh;
+.body {
   background-color: #13181d;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font: 700 0.8rem 'Roboto';
 }
 
 .landingBody {
   width: 100vw;
   height: 100vh;
+
   background-image: url('./assets/background.jpg');
   background-size: cover;
+}
+
+.bodyBackground {
+  width: 1920px;
+  height: 1190px;
 }
