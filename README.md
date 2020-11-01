@@ -41,17 +41,21 @@ dentro de:
 
 # Desenvolvedores
 
+
 ### [João Pedro Alves](https://github.com/joaopealves)
 
 ### [Willian Caetano](https://github.com/williancae)
 
 ### [César Avelar](https://github.com/cesarxexeu)
 
+
 # LinkedIn dos participantes do projeto
 
-### [João Pedro Alves](https://www.linkedin.com/in/joão-pedro-alves-910858163/)
 
-### [Willian Caetano](https://www.linkedin.com/in/willian-caetano-670546185/)
+<h3><a href="https://www.linkedin.com/in/joão-pedro-alves-910858163/">Joao Pedro <img src="gitDocs/linkedin.png" height="15px"></a><h3>
+
+<h3><a href="https://www.linkedin.com/in/willian-caetano-670546185/">Willian Caetano <img src="gitDocs/linkedin.png" height="15px"></a><h3>
+
 
 ### [César Avelar](https://www.linkedin.com/in/willian-caetano-670546185/)
 
