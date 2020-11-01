@@ -17,13 +17,17 @@
   border: none;
   cursor: pointer;
   font: 700 1.2rem 'Roboto';
-  display: flex;
+
   align-items: center;
   justify-content: center;
   /* flex-direction: row; */
+  display: flex;
   margin-right: 20px;
 }
-
+.btn {
+  display: flex;
+  align-items: center;
+}
 .link {
   display: flex;
   margin: 0 auto;
@@ -166,22 +170,18 @@
 }
 
 @media (max-width: 1200px) {
+  .link {
+    flex-direction: column;
+  }
   .navbar {
     flex-direction: column;
-    width: 100vw;
-    height: 15vh;
-    background-color: red;
-    align-items: center;
   }
-  .btns {
-    /* align-items: center; */
-    /* margin-left: 200px; */
-    /* position: absolute; */
-    /* width: 100vw; */
-    /* height: 20vh; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* right: 0; */
+  .btn {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  .logoContainer {
+    margin-left: 35px;
   }
 }
