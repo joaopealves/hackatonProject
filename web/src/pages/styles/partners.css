@@ -54,6 +54,11 @@
   font: 700 0.8rem 'Roboto';
 }
 
+.pertenesItem img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 30px;
+}
 @media (max-width: 1350px) {
   .pertenesItem {
     margin-bottom: 50px;
@@ -61,10 +66,4 @@
   .partenersText {
     margin-bottom: 80px;
   }
-}
-
-.pertenesItem img {
-  border-radius: 50%;
-  width: 100px;
-  margin-bottom: 30px;
 }

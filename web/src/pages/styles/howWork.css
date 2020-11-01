@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  height: 20vh;
+  height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -36,12 +36,11 @@
   }
   .howWork {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     color: white;
     font: 700 1.2rem 'JetBrains Mono';
     text-align: center;
     margin: 0 auto;
-    margin-top: 200px;
   }
 }
 h1 {

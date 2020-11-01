@@ -173,4 +173,9 @@
   .logoContainer {
     margin-left: 35px;
   }
+  @media (max-width: 1400px) {
+    .linkItem {
+      font: 700 1rem 'Roboto';
+    }
+  }
 }

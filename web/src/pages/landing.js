@@ -8,6 +8,7 @@ import HowWork from './howWork';
 import Artists from './benefits/artists';
 import Partners from './partners';
 import Footer from './footer';
+import Devs from './devs';
 
 export default function Landing() {
   return (
@@ -34,6 +35,9 @@ export default function Landing() {
       </div>
       <div className="body" id="Partners">
         <Partners />
+      </div>
+      <div className="body" id="Devs">
+        <Devs />
       </div>
       <div className="footer">
         <Footer />
