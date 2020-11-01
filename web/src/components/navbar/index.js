@@ -29,7 +29,9 @@ export default function Navbar() {
               <a href="#Artists">Artistas</a>
             </div>
           </div>
-          <a className="linkItem">Parceiros</a>
+          <a href="#Partnes" className="linkItem">
+            Parceiros
+          </a>
         </div>
         <div className="btn">
           <Link to="/login">

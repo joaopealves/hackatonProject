@@ -48,6 +48,9 @@
 .buttonRegister {
   margin-right: 100px;
 }
+.btn {
+  display: flex;
+}
 
 .linkItem {
   margin-top: 10px;
@@ -72,9 +75,12 @@
   border-radius: 30px;
   width: 521px;
   height: 90px;
-  font: 700 0.8rem 'Roboto';
+  font: 700 1.2rem 'Roboto';
   color: white;
   transition: 0.8s;
+}
+.tryButton p {
+  cursor: pointer;
 }
 
 .tryButton:hover {
@@ -146,12 +152,15 @@
   margin-right: 100px;
   margin-bottom: 100px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #11212196;
   transition: 0.8s;
+  /* box-shadow: 1em 0 3em rgba(0, 0, 0, 0.589), 0em 0 3em rgba(0, 0, 0, 0.562); */
 }
 
 .topButton:hover {
   filter: brightness(80%);
+  box-shadow: 0em 0 1em rgb(0, 0, 0), inset 1em 0 3em rgba(0, 0, 0, 0.562),
+    inset 0em 0 3em rgba(0, 0, 0, 0.274);
 }
 
 @media (max-width: 1200px) {
@@ -168,5 +177,6 @@
   }
   .logoContainer {
     margin-left: 35px;
+    margin-bottom: 20px;
   }
 }

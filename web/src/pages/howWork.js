@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/howWork.css';
 import '../global.css';
 import lofi from '../assets/lofipng.png';
+import { Link } from 'react-router-dom';
 
 export default function HowWork() {
   return (
@@ -24,9 +25,11 @@ export default function HowWork() {
           </p>
           <div>
             <img src={lofi} className="lofiImg" />
-            <button className="button tryButton">
-              Experimente agora mesmo!
-            </button>
+            <Link to="/register">
+              <button className="button tryButton">
+                Experimente agora mesmo!
+              </button>
+            </Link>
           </div>
         </div>
       </div>
