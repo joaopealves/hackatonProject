@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   color: white;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .button {
@@ -20,8 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  margin-right: 20px;
+  /* flex-direction: row; */
   margin-right: 20px;
 }
 
@@ -48,12 +47,8 @@
 .buttonRegister {
   margin-right: 100px;
 }
-.btn {
-  display: flex;
-}
 
 .linkItem {
-  margin-top: 10px;
   margin-left: 40px;
   cursor: pointer;
   color: white;
@@ -75,12 +70,9 @@
   border-radius: 30px;
   width: 521px;
   height: 90px;
-  font: 700 1.2rem 'Roboto';
+  font: 700 0.8rem 'Roboto';
   color: white;
   transition: 0.8s;
-}
-.tryButton p {
-  cursor: pointer;
 }
 
 .tryButton:hover {
@@ -133,6 +125,19 @@
   display: block;
 }
 
+.logoText {
+  font: 700 10rem 'Roboto';
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
 .logoContainer {
   font: 700 1.4rem 'JetBrains Mono';
   margin-left: 100px;
@@ -152,31 +157,31 @@
   margin-right: 100px;
   margin-bottom: 100px;
   cursor: pointer;
-  background-color: #11212196;
+  background-color: rgba(255, 255, 255, 0);
   transition: 0.8s;
-  /* box-shadow: 1em 0 3em rgba(0, 0, 0, 0.589), 0em 0 3em rgba(0, 0, 0, 0.562); */
 }
 
 .topButton:hover {
   filter: brightness(80%);
-  box-shadow: 0em 0 1em rgb(0, 0, 0), inset 1em 0 3em rgba(0, 0, 0, 0.562),
-    inset 0em 0 3em rgba(0, 0, 0, 0.274);
 }
 
 @media (max-width: 1200px) {
-  .link {
-    flex-direction: column;
-  }
   .navbar {
     flex-direction: column;
+    width: 100vw;
+    height: 15vh;
+    background-color: red;
+    align-items: center;
   }
-  .btn {
-    display: flex;
-    margin-left: 150px;
-    margin-top: 20px;
-  }
-  .logoContainer {
-    margin-left: 35px;
-    margin-bottom: 20px;
+  .btns {
+    /* align-items: center; */
+    /* margin-left: 200px; */
+    /* position: absolute; */
+    /* width: 100vw; */
+    /* height: 20vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* right: 0; */
   }
 }

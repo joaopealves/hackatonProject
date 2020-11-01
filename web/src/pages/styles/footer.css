@@ -6,14 +6,14 @@
   color: white;
   height: 34vw;
   flex-direction: row;
-  grid-template-columns: 35% 35% 30%;
+  grid-template-columns: 35% 30% 35%;
   align-items: center;
   font: 700 1rem 'Roboto';
 }
 
-.commonItens {
-  /* margin-left: 200px; */
-}
+/* .commonItens {
+  margin-left: 200px;
+} */
 
 .socialIconsContainer {
   display: flex;
@@ -33,8 +33,50 @@
   align-items: center;
   border-radius: 50%;
   border: 2px solid white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.commomItem:hover {
+  filter: brightness(30%);
 }
 
 .textIcon {
   margin-left: 10px;
+}
+
+.aboutCompany {
+  text-align: justify;
+  margin-right: 80px;
+}
+
+.aboutCompany h2 {
+  margin-bottom: 40px;
+}
+
+.aboutCompany p {
+  font: 400 0.8rem 'Roboto';
+  color: rgb(199, 199, 199);
+}
+
+.socialIconsContainer {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialIcons {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid white;
+  transition: 1s;
+}
+
+.socialIcons:hover {
+  filter: brightness(40%);
 }

@@ -1,8 +1,13 @@
 import React from 'react';
 import './styles/footer.css';
+
 import { BiBeenHere } from 'react-icons/bi';
 import { HiPhone } from 'react-icons/hi';
 import { GoMail } from 'react-icons/go';
+import { VscGithub } from 'react-icons/vsc';
+import { AiOutlineFacebook } from 'react-icons/ai';
+import LogoSony from '../assets/login-sony.png';
+
 export default function Footer() {
   return (
     <div>
@@ -31,11 +36,23 @@ export default function Footer() {
           </div>
           <div className="aboutCompany">
             <h2>Sobre Empresa</h2>
-            <p>fdfdsf</p>
+            <p>
+              Acreditamos que podemos transformar a forma como as pessoas se
+              relacionam com a música. Apesar do catálogo infinito das
+              plataformas de música, estudos mostram que ouvintes tendem a parar
+              de ouvir novos artistas com o passar dos anos.
+            </p>
             <div className="socialIconsContainer">
-              <div className="socialIcons"></div>
-              <div className="socialIcons">Df</div>
-              <div className="socialIcons">Df</div>
+              <div className="socialIcons">
+                <VscGithub size="30px" />
+              </div>
+              <div className="socialIcons">
+                <AiOutlineFacebook size="30" />
+              </div>
+
+              <div className="socialIcons">
+                <img src={LogoSony} />
+              </div>
               <div className="socialIcons">Df</div>
             </div>
           </div>
