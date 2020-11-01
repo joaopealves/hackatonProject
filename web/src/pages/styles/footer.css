@@ -1,0 +1,40 @@
+.footerContainer {
+  background-color: rgba(255, 255, 255, 0);
+  height: 100px;
+  display: grid;
+  width: 90vw;
+  color: white;
+  height: 34vw;
+  flex-direction: row;
+  grid-template-columns: 35% 35% 30%;
+  align-items: center;
+  font: 700 1rem 'Roboto';
+}
+
+.commonItens {
+  /* margin-left: 200px; */
+}
+
+.socialIconsContainer {
+  display: flex;
+}
+
+.item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.commomItem {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.textIcon {
+  margin-left: 10px;
+}

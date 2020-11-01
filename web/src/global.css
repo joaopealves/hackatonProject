@@ -11,6 +11,15 @@
   display: flex;
   font: 700 0.8rem 'Roboto';
 }
+.footer {
+  background-color: #0b0c0c;
+  width: 100vw;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font: 700 0.8rem 'Roboto';
+}
 
 #root {
   width: 100vw;

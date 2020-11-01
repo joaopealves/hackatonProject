@@ -7,6 +7,7 @@ import Listeners from './benefits/listeners';
 import HowWork from './howWork';
 import Artists from './benefits/artists';
 import Partnes from './partners';
+import Footer from './footer';
 
 export default function Landing() {
   return (
@@ -33,6 +34,9 @@ export default function Landing() {
       </div>
       <div className="body" id="Partnes">
         <Partnes />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </>
   );
