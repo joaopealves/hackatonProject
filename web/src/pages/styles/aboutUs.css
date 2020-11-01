@@ -17,7 +17,6 @@
 }
 .logoGamusicContainer {
   font: 700 3.4rem Aquire;
-  margin-left: 200px;
 }
 .logoGamusicContainer span {
   color: rgb(12, 202, 28);
@@ -65,4 +64,10 @@
     margin: 0 auto;
     margin-top: 200px;
   } */
+}
+
+@media (min-width: 1400px) {
+  .logoGamusicContainer {
+    margin-left: 200px;
+  }
 }

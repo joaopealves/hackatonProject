@@ -11,6 +11,7 @@
   font: 700 1rem 'Roboto';
 }
 .logoContainer {
+  top: 0;
   font: 700 2.4rem Aquire;
 }
 .logoContainer span {
@@ -89,4 +90,11 @@
 .commomCity {
   font: 400 0.9rem 'Roboto';
   color: rgb(184, 184, 184);
+}
+
+@media (max-width: 900px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }
