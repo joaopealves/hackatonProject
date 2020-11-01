@@ -22,7 +22,6 @@ Além disso, os insights gerados pelo Gamusic podem ajudar a Sony a realizar pro
 <br><br>
 <h2><strong>Adicione-me ao seu git</strong></h2>
 
-
 <p style="font-size:15px;">É necessário instalar a <span style="color: yellow; ">node_modules</span></p>
 <hr>
 
@@ -34,7 +33,8 @@ Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o y
 
 mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
 
-dentro de:     
+dentro de:
+
 <pre>scripts: {
     "start":"react-scripts start"
 }</pre>
@@ -42,6 +42,20 @@ dentro de:
 # Desenvolvedores
 
 ### [João Pedro Alves](https://github.com/joaopealves)
+
+### [Willian Caetano](https://github.com/williancae)
+
+### [César Avelar](https://github.com/cesarxexeu)
+
+# LinkedIn dos participantes do projeto
+
+### [João Pedro Alves](https://www.linkedin.com/in/joão-pedro-alves-910858163/)
+
+### [Willian Caetano](https://www.linkedin.com/in/willian-caetano-670546185/)
+
+### [César Avelar](https://www.linkedin.com/in/willian-caetano-670546185/)
+
+### [Karina Balan](https://www.linkedin.com/in/karina-balan-julio-207b6299/)
 
 # Tecnologias usadas
 
