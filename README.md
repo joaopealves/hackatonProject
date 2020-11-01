@@ -14,27 +14,30 @@ Quanto mais artistas diferentes o usuário ouvir, mais pontos pode ganhar para t
 
 Além disso, os insights gerados pelo Gamusic podem ajudar a Sony a realizar projetos de marketing, desenvolvimento artístico e parcerias comerciais de forma mais assertiva.
 
-# Como instalar o Front end
+<h1> Como instalar o Front end</h1>
+<h2>Download do Projeto</h2>
+    <img src="gitDocs/clone_download.png" alt="" srcset="">
+    <br><br>
+    <p>Faça o clone do Repositorio em sua maquina com o comando <code>git clone https://github.com/joaopealves/hackatonProject.git</code></p>
+<br><br>
+<h2><strong>Adicione-me ao seu git</strong></h2>
 
-    # git@github.com:joaopealves/hackatonProject.git
 
-Adicione-me ao seu git
+<p style="font-size:15px;">É necessário instalar a <span style="color: yellow; ">node_modules</span></p>
+<hr>
 
---É necessário instalar a node_modules
+Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o yarn utilize o comando <code>yarn</code>
 
-    Use npm init -y caso esteja usando o npm ou somente yarn, caso opte pelo yarn
+<p>após a instalação do node_modules basta digitar pelo terminal</p>
 
-após a instalação do node_modules basta digitar pelo terminal
+    cd hackatonProject/web -> yarn start
 
-    cd web -> yarn start
+mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
 
-mas caso não apareça ou esteja usando uma versão antiga, adicione
-
-    "start":"react-scripts start",
-
-dentro de "scripts": {
-
-}
+dentro de:     
+<pre>scripts: {
+    "start":"react-scripts start"
+}</pre>
 
 # Desenvolvedores
 
@@ -42,14 +45,11 @@ dentro de "scripts": {
 
 # Tecnologias usadas
 
-### \*HTML 5
-
-### \*CSS 3
-
-### \*TypeScript
-
-### \*JavaScript
-
-### \*React.js
-
-### \*Node.js
+<ul>
+    <li>HTML 5</li>
+    <li>CSS 3 </li>
+    <li>TypeScript</li>
+    <li>JavaScript</li>
+    <li>React.js</li>
+    <li>Node.js</li>
+</ul>
