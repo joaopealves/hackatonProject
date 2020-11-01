@@ -2,7 +2,8 @@ import React from 'react';
 import './styles/styles.css';
 import { Link } from 'react-router-dom';
 import Routes from '../../routes';
-
+// import { FiChevronDown } from 'react-icons/vsc';
+import { FiChevronDown } from 'react-icons/fi';
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -17,6 +18,7 @@ export default function Navbar() {
         <div className="dropdown linkItem">
           <button className=" dropbtn">
             Vantagens
+            <FiChevronDown size="12px" />
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">

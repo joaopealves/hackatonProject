@@ -11,7 +11,7 @@
 
 .loginContainer {
   position: absolute;
-  background-color: rgba(228, 228, 228, 0);
+  background-color: rgba(0, 0, 0, 0.288);
   width: 70vw;
   height: 70vh;
   display: flex;
@@ -19,7 +19,7 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 20px;
-  /* border: 6px solid white; Borda de login*/
+  border: 6px solid white;
 }
 
 .loginContainer input {
@@ -112,7 +112,7 @@ img:hover,
 }
 
 .loginContainer a {
-  color: rgb(204, 3, 3);
+  color: white;
   margin-top: 20px;
   font: 700 1.2rem 'Roboto';
   cursor: pointer;
