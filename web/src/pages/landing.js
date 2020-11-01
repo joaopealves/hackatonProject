@@ -6,7 +6,7 @@ import Compaines from './benefits/companies';
 import Listeners from './benefits/listeners';
 import HowWork from './howWork';
 import Artists from './benefits/artists';
-import Partnes from './partners';
+import Partners from './partners';
 import Footer from './footer';
 
 export default function Landing() {
@@ -32,8 +32,8 @@ export default function Landing() {
       <div className="body" id="Artists">
         <Artists />
       </div>
-      <div className="body" id="Partnes">
-        <Partnes />
+      <div className="body" id="Partners">
+        <Partners />
       </div>
       <div className="footer">
         <Footer />

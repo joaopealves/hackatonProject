@@ -13,13 +13,18 @@ export default function Footer() {
     <div>
       <footer>
         <div className="footerContainer">
-          <div className="logoContainer">Logo</div>
+          <div className="logoContainer">
+            Ga<span styles={{ color: 'rgb(12, 202, 28)' }}>Music</span>
+          </div>
           <div className="commonItens">
             <div className="item localItem">
               <span className="commomItem">
                 <BiBeenHere size="30px" />
               </span>
-              <span className="textIcon">Brasília, DF</span>
+              <span className="textIcon">
+                <span className="commomCity"> Q Central, Sobradinho </span>
+                <br></br>Brasília, Distrito Federal
+              </span>
             </div>
             <div className="item phoneItem">
               <span className="commomItem">

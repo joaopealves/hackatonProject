@@ -6,7 +6,11 @@ export default function aboutUs() {
     <div className="container">
       <div className="aboutUsDiv">
         <div className="aboutUsContainer">
-          <div className="logoImg">Opa</div>
+          <div className="logoImg">
+            <div className="logoGamusicContainer">
+              GA<span>MUSIC</span>
+            </div>
+          </div>
           <div className="aboutUsText">
             <h2>Quem somos?</h2>
             <p>

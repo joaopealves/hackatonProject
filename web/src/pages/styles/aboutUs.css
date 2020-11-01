@@ -15,6 +15,13 @@
   justify-content: space-between;
   grid-template-columns: 60% 40%;
 }
+.logoGamusicContainer {
+  font: 700 3.4rem Aquire;
+  margin-left: 200px;
+}
+.logoGamusicContainer span {
+  color: rgb(12, 202, 28);
+}
 
 .aboutUsText {
   width: 500px;
@@ -48,6 +55,7 @@
   .aboutUsText {
     font: 700 1.2rem 'JetBrains Mono';
   }
+
   /* .howWork {
     width: 100vw;
     height: 100vh;

@@ -8,7 +8,9 @@ export default function Navbar() {
   return (
     <div>
       <div id="navbar" className="navbar">
-        <div className="logoContainer">Hydra</div>
+        <div className="logoContainer">
+          GA<span>MUSIC</span>
+        </div>
         <div className="link">
           <a href="#HowWork" className="linkItem">
             Como funciona
@@ -29,8 +31,11 @@ export default function Navbar() {
               <a href="#Artists">Artistas</a>
             </div>
           </div>
-          <a href="#Partnes" className="linkItem">
+          <a href="#Partners" className="linkItem">
             Parceiros
+          </a>
+          <a href="#Devs" className="linkItem">
+            Devs
           </a>
         </div>
         <div className="btn">

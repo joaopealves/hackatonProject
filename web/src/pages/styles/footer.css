@@ -10,7 +10,12 @@
   align-items: center;
   font: 700 1rem 'Roboto';
 }
-
+.logoContainer {
+  font: 700 2.4rem Aquire;
+}
+.logoContainer span {
+  color: rgb(12, 202, 28);
+}
 /* .commonItens {
   margin-left: 200px;
 } */
@@ -79,4 +84,9 @@
 
 .socialIcons:hover {
   filter: brightness(40%);
+}
+
+.commomCity {
+  font: 400 0.9rem 'Roboto';
+  color: rgb(184, 184, 184);
 }
