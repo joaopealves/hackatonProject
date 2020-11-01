@@ -39,27 +39,17 @@ dentro de:
     "start":"react-scripts start"
 }</pre>
 
-# Desenvolvedores
-
-
-### [João Pedro Alves](https://github.com/joaopealves)
-
-### [Willian Caetano](https://github.com/williancae)
-
-### [César Avelar](https://github.com/cesarxexeu)
-
-
 # LinkedIn dos participantes do projeto
 
+<h3>João Pedro <a href="https://www.linkedin.com/in/joão-pedro-alves-910858163/"><img src="gitDocs/linkedin.png" height="15px"></a> <a href="https://github.com/joaopealves"><img src="gitDocs/github.png" height="15px"></a><h3>
 
-<h3><a href="https://www.linkedin.com/in/joão-pedro-alves-910858163/">Joao Pedro <img src="gitDocs/linkedin.png" height="15px"></a><h3>
+<h3>Willian Caetano<a href="https://www.linkedin.com/in/willian-caetano-670546185/">
+ <img src="gitDocs/linkedin.png" height="15px"></a> <a href="https://github.com/williancae"><img src="gitDocs/github.png" height="15px"></a><h3>
+ <h3>César Avelar<a href="https://www.linkedin.com/in/césar-avelar-287a14189/">
+ <img src="gitDocs/linkedin.png" height="15px"></a> <a href="https://github.com/cesarxexeu"><img src="gitDocs/github.png" height="15px"></a><h3>
 
-<h3><a href="https://www.linkedin.com/in/willian-caetano-670546185/">Willian Caetano <img src="gitDocs/linkedin.png" height="15px"></a><h3>
-
-
-### [César Avelar](https://www.linkedin.com/in/willian-caetano-670546185/)
-
-### [Karina Balan](https://www.linkedin.com/in/karina-balan-julio-207b6299/)
+<h3>Karina Balan<a href="https://www.linkedin.com/in/karina-balan-julio-207b6299/">
+ <img src="gitDocs/linkedin.png" height="15px"></a> <h3>
 
 # Tecnologias usadas
 
