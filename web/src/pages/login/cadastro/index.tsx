@@ -16,7 +16,7 @@ export default function Register() {
               <CgArrowLeft color="white" size="58" />
             </Link>
           </div>
-          <p class="loginTitle">Cadastro</p>
+          <p className="loginTitle">Cadastro</p>
           <input type="text" placeholder="Nome Completo" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />

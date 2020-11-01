@@ -16,7 +16,7 @@ export default function Login() {
             <CgArrowLeft color="white" size="58" />
           </Link>
         </div>
-        <p class="loginTitle">Login</p>
+        <p className="loginTitle">Login</p>
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Senha" />
         <input type="submit" value="LOGIN" />

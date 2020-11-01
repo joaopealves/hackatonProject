@@ -9,7 +9,7 @@ export default function HowWork() {
     <div>
       <div className="container">
         <div className="textContainer">
-          <p class="howWork">
+          <p className="howWork">
             <h1>Como funciona?</h1>
             <br />
             Somos a primeira plataforma de cashback que recompensa ouvintes por

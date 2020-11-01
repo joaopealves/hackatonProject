@@ -14,7 +14,7 @@ export default function Footer() {
       <footer>
         <div className="footerContainer">
           <div className="logoContainer">
-            Ga<span styles={{ color: 'rgb(12, 202, 28)' }}>Music</span>
+            Ga<span>Music</span>
           </div>
           <div className="commonItens">
             <div className="item localItem">
