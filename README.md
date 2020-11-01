@@ -6,6 +6,7 @@
 </style>
 ## Sobre o Tema do Hackaton
 
+
 Desafio final proposto pela Hackathon Code/Stage | Sony Music, o tema era: Como a Inteligência Artificial e o Machine Learning podem melhorar a experiência de consumo e impulsionar o mercado da música?
 
 ## Sobre o nosso projeto
