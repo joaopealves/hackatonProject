@@ -50,6 +50,7 @@
 }
 
 .linkItem {
+  margin-top: 10px;
   margin-left: 40px;
   cursor: pointer;
   color: white;
@@ -126,19 +127,6 @@
   display: block;
 }
 
-.logoText {
-  font: 700 10rem 'Roboto';
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  height: 20vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.466);
-}
-
 .logoContainer {
   font: 700 1.4rem 'JetBrains Mono';
   margin-left: 100px;
@@ -164,4 +152,21 @@
 
 .topButton:hover {
   filter: brightness(80%);
+}
+
+@media (max-width: 1200px) {
+  .link {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .btn {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  .logoContainer {
+    margin-left: 35px;
+  }
 }

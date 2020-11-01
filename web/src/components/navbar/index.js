@@ -31,17 +31,19 @@ export default function Navbar() {
           </div>
           <a className="linkItem">Parceiros</a>
         </div>
-        <Link to="/login">
-          <button className="button buttonLogin">Login</button>
-        </Link>
-        <Link to="/register">
-          <button className="button buttonRegister">Cadastro</button>
-        </Link>
-      </div>
-      <div className="topButton">
-        <a href="#navbar" id="topButton">
-          <FiChevronUp color="white" size="50px" />
-        </a>
+        <div className="btn">
+          <Link to="/login">
+            <button className="button buttonLogin">Login</button>
+          </Link>
+          <Link to="/register">
+            <button className="button buttonRegister">Cadastro</button>
+          </Link>
+        </div>
+        <div className="topButton">
+          <a href="#navbar" id="topButton">
+            <FiChevronUp color="white" size="50px" />
+          </a>
+        </div>
       </div>
     </div>
   );
