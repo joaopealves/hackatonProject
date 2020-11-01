@@ -93,8 +93,17 @@
 }
 
 @media (max-width: 900px) {
+  .footer {
+    display: block;
+  }
   .footerContainer {
     display: flex;
+    align-items: center;
     flex-direction: column;
+  }
+  .aboutCompany {
+    text-align: justify;
+    margin-right: 0px;
+    align-items: center;
   }
 }
