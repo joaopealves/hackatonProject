@@ -1,5 +1,9 @@
 # GAMUSIC
-
+<style>
+    body{
+        font-size: 15px;
+    }
+</style>
 ## Sobre o Tema do Hackaton
 
 Desafio final proposto pela Hackathon Code/Stage | Sony Music, o tema era: Como a Inteligência Artificial e o Machine Learning podem melhorar a experiência de consumo e impulsionar o mercado da música?
@@ -18,7 +22,7 @@ Além disso, os insights gerados pelo Gamusic podem ajudar a Sony a realizar pro
 <h2>Download do Projeto</h2>
     <img src="gitDocs/clone_download.png" alt="" srcset="" style="box-shadow: 2px 2px 10px black">
     <br><br>
-    <p>Faça o clone do Repositorio em sua maquina com o comando <code>git clone https://github.com/joaopealves/hackatonProject.git</code></p>
+    <p style="font-size:15px">Faça o clone do Repositorio em sua maquina com o comando <code>git clone https://github.com/joaopealves/hackatonProject.git</code> ou faça o Download.</p>
 <br><br>
 <h2><strong>Adicione-me ao seu git</strong></h2>
 
@@ -32,7 +36,7 @@ Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o y
 
     cd hackatonProject/web -> yarn start
 
-mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
+mas caso não apareça ou esteja usando uma versão antiga, adicione ao documento <span style="color:yellow;">packaje.json</span>
 
 dentro de:     
 <pre>scripts: {
@@ -42,6 +46,7 @@ dentro de:
 # Desenvolvedores
 
 ### [João Pedro Alves](https://github.com/joaopealves)
+
 
 # Tecnologias usadas
 
