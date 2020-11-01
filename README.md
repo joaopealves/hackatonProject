@@ -6,6 +6,14 @@ Desafio final proposto pela Hackathon Code/Stage | Sony Music, o tema era: Como 
 
 ## Sobre o nosso projeto
 
+Nossa extensão web com gamificação e IA, integrada às principais plataformas de streaming, mapeia o comportamento dos usuários e é capaz classificar usuários de acordo com arquétipos de personalidade.
+
+Queremos ajudar o Filtr Game a automatizar recomendações de artistas nacionais de acordo com seus gêneros de interesse e personalidade.
+
+Quanto mais artistas diferentes o usuário ouvir, mais pontos pode ganhar para trocar por benefícios diversos.
+
+Além disso, os insights gerados pelo Gamusic podem ajudar a Sony a realizar projetos de marketing, desenvolvimento artístico e parcerias comerciais de forma mais assertiva.
+
 # Como instalar o Front end
 
     # git@github.com:joaopealves/hackatonProject.git
