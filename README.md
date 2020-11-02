@@ -47,7 +47,7 @@ dentro de:
     <br><br>
     <p>Faça o clone do Repositorio em sua maquina com o comando <code>git clone https://github.com/joaopealves/hackatonProject.git</code></p>
 <br><br>
-<h2><strong>Adicione-me ao seu git</strong> 🚀
+<h2><strong>Adicione-me ao seu git</strong></h2> 🚀
 <p style="font-size:15px;">É necessário instalar a <span style="color: yellow; ">node_modules ! </span><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/OOjs_UI_icon_alert-yellow.svg" width="13px"/></p>
 <hr>
 
