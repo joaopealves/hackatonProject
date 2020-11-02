@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/joaopealves/hackatonProject.git",
   "author": "João Pedro Alves <jotalmeida007@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nexe": "^3.3.7"
+  }
 }

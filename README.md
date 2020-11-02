@@ -37,15 +37,38 @@ dentro de:
 <pre>scripts: {
     "start":"react-scripts start"
 }</pre>
+<br>
+<br>
+<br>
+<br>
+<h1> Como instalar o Back end 🖥</h1> 
+<h2>Download do Projeto</h2>
+    <img src="gitDocs/clone_download.png" alt="" srcset="" style="box-shadow: 2px 2px 10px black">
+    <br><br>
+    <p>Faça o clone do Repositorio em sua maquina com o comando <code>git clone https://github.com/joaopealves/hackatonProject.git</code></p>
+<br><br>
+<h2><strong>Adicione-me ao seu git</strong> 🚀
+<p style="font-size:15px;">É necessário instalar a <span style="color: yellow; ">node_modules ! </span><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/OOjs_UI_icon_alert-yellow.svg" width="13px"/></p>
+<hr>
+
+Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o yarn utilize o comando <code>yarn</code>
+
+<p>após a instalação do node_modules basta digitar pelo terminal</p>
+
+    cd hackatonProject/server -> node nucleo.js
+
+mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
+
+dentro de:
 
 # LinkedIn dos participantes
 
-<h3>João Pedro <a target="_blank" href="https://www.linkedin.com/in/joão-pedro-alves-910858163/"><img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/joaopealves"><img src="gitDocs/gitHub.png" height="15px"></a><h3>
+<h3>João Pedro <a target="_blank" href="https://www.linkedin.com/in/joão-pedro-alves-910858163/"><img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/joaopealves"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="15px"></a><h3>
 
 <h3>Willian Cae<a target="_blank" target:Blnk href="https://www.linkedin.com/in/willian-caetano-670546185/">
- <img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/williancae"><img src="gitDocs/gitHub.png" height="15px"></a><h3>
+ <img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/williancae"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="15px"></a><h3>
  <h3>César Avelar<a target="_blank" href="https://www.linkedin.com/in/césar-avelar-287a14189/">
- <img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/cesarxexeu"><img src="gitDocs/gitHub.png" height="15px"></a><h3>
+ <img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/cesarxexeu"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="15px"></a><h3>
 
 <h3>Karina Balan<a target="_blank" href="https://www.linkedin.com/in/karina-balan-julio-207b6299/">
  <img src="gitDocs/linkedin.png" height="15px"></a> <h3>
@@ -54,7 +77,7 @@ dentro de:
 
 <ul>
     <li><img src="gitDocs/html.png" height="20px">&nbsp;&nbsp;&nbsp;HTML 5</li>
-    <li><img src="gitDocs/css.png" height="15px">&nbsp;&nbsp;&nbsp;CSS 3 </li>
+    <li><img src="gitDocs/css.png" height="15px">&nbsp;&nbsp;&nbsp; CSS 3 </li>
     <li><img src="https://miro.medium.com/max/700/1*mn6bOs7s6Qbao15PMNRyOA.png" height="15px">&nbsp;&nbsp;&nbsp;TypeScript</li>
     <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" height="15px">&nbsp;&nbsp;&nbsp;JavaScript</li>
     <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" height="15px">&nbsp;&nbsp;React.js</li>
