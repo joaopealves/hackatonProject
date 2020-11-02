@@ -24,6 +24,8 @@ Além disso, os insights gerados pelo Gamusic podem ajudar a Sony a realizar pro
 <p style="font-size:15px;">É necessário instalar a <span style="color: yellow; ">node_modules ! </span><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/OOjs_UI_icon_alert-yellow.svg" width="13px"/></p>
 <hr>
 
+<img src=./gitDocs/print1.jpg/>
+
 Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o yarn utilize o comando <code>yarn</code>
 
 <p>após a instalação do node_modules basta digitar pelo terminal</p>
