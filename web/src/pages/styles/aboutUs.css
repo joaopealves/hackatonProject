@@ -10,12 +10,13 @@
 .aboutUsContainer {
   display: grid;
   align-items: center;
-  width: 70vw;
+  left: 0;
   height: 70vh;
   justify-content: space-between;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 40% 60%;
 }
 .logoGamusicContainer {
+  margin-right: 300px;
   font: 700 3.4rem Aquire;
 }
 .logoGamusicContainer span {
@@ -24,10 +25,12 @@
 
 .aboutUsText {
   width: 500px;
-  font: 700 1.6rem 'JetBrains Mono';
+  font: 700 1.2rem 'JetBrains Mono';
   color: white;
   text-align: center;
   justify-content: space-between;
+  text-align: justify;
+  margin-left: 20px;
 }
 
 .aboutUsText h2 {
@@ -52,7 +55,7 @@
     height: 80vh;
   }
   .aboutUsText {
-    font: 700 1.2rem 'JetBrains Mono';
+    font: 700 1rem 'JetBrains Mono';
   }
 
   /* .howWork {

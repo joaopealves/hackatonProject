@@ -12,16 +12,18 @@ export default function HowWork() {
           <p className="howWork">
             <h1>Como funciona?</h1>
             <br />
-            Somos a primeira plataforma de cashback que recompensa ouvintes por
-            escutarem seus artistas preferidos e descobrirem novas músicas.
-            Quanto mais você ouve músicas com a nossa extensão, mais pontos
-            acumula para ganhar cashback em produtos e serviços variados. Quanto
-            mais artistas novos e independentes ouvir, maior a pontuação. <br />
-            <br />
-            Com o poder do machine learning, mapeamos os hábitos do ouvinte para
-            sugerir músicas de artistas que você pode gostar. Que tal descobrir
-            novas músicas, apoiar novos artistas e ganhar descontos em suas
-            lojas preferidas?
+            Como funciona? O usuário se cadastra no site Gamusic, conecta nossa
+            extensão ao Spotify e acumula pontos automaticamente de acordo com
+            os artistas que ouve. Os pontos podem então ser resgatados pelo
+            Filtr Game na forma de cashback em lojas online, descontos em
+            serviços de música, ingressos e prêmios relâmpago como ingressos
+            para eventos e interações com artistas. Nosso algoritmo de machine
+            learning obtém informações de navegação dos ouvintes pelo spotify.
+            Os dados são então cruzados a uma biblioteca externa para
+            classificar os usuários em diferentes arquétipos de personalidade de
+            acordo com os gêneros musicais que escutam. Por fim, fazemos uma
+            sugestão personalizada de artista ou música nacional da sony de
+            acordo com o perfil do ouvinte.
           </p>
           <div>
             <img src={lofi} className="lofiImg" />

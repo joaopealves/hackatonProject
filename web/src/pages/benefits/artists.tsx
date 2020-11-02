@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/benefits.css';
+import Service from '../../assets/Music-amico.png';
 
 export default function Artists() {
   return (
     <div className="benefitsContainer">
-      <p className="benefitsTextListeners">
-        <h2>Para Artistas e Gravadoras</h2>
+      {/* <img src={Service} id="artistImg" /> */}
+      <p id="artistText" className="benefitsTextCompaines">
+        <h2>Para Artistas </h2>
         Ampliamos o alcance de artistas pequenos e médios, incentivando maior
         número de streams para artistas brasileiros através do modelo de
         recompensas. Ao incentivar ouvintes a saírem da “zona de conforto

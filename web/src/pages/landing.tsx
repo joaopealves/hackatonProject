@@ -30,9 +30,9 @@ export default function Landing() {
       <div className="body" id="Compaines">
         <Compaines />
       </div>
-      <div className="body" id="Artists">
+      {/* <div className="body" id="Artists">
         <Artists />
-      </div>
+      </div> */}
       <div className="body" id="Partners">
         <Partners />
       </div>

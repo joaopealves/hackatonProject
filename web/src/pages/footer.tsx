@@ -22,7 +22,7 @@ export default function Footer() {
                 <BiBeenHere size="30px" />
               </span>
               <span className="textIcon">
-                <span className="commomCity"> Q Central, Sobradinho </span>
+                <span className="commomCity"> Sobradinho </span>
                 <br></br>Brasília, Distrito Federal
               </span>
             </div>
@@ -30,13 +30,13 @@ export default function Footer() {
               <span className="commomItem">
                 <HiPhone size="30px" />
               </span>
-              <span className="textIcon">4002 8922</span>
+              <span className="textIcon">+55 (61) #### ####</span>
             </div>
             <div className="item mailItem">
               <span className="commomItem">
                 <GoMail size="30px" />
               </span>
-              <span className="textIcon">suporte@gamusic.com</span>
+              <span className="textIcon">#####@gamusic.com</span>
             </div>
           </div>
           <div className="aboutCompany">
@@ -58,7 +58,6 @@ export default function Footer() {
               <div className="socialIcons">
                 <img src={LogoSony} />
               </div>
-              <div className="socialIcons">Df</div>
             </div>
           </div>
         </div>

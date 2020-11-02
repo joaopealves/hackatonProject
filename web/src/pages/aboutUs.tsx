@@ -14,14 +14,18 @@ export default function aboutUs() {
           <div className="aboutUsText">
             <h2>Quem somos?</h2>
             <p>
-              Acreditamos que podemos transformar a forma como as pessoas se
-              relacionam com a música. Apesar do catálogo infinito das
-              plataformas de música, estudos mostram que ouvintes tendem a parar
-              de ouvir novos artistas com o passar dos anos. O propósito da
-              Gamusic é ajudar na construção de repertório dos usuários para
-              além das músicas do topo das paradas. Nosso machine learning é
-              orientado a dar visibilidade para artistas nacionais e
-              independentes, usando o cashback como mecanismo de incentivo.
+              Somos uma plataforma de recompensas com machine learning, que
+              premia ouvintes por escutarem artistas e músicas nacionais que não
+              conhecem. Queremos ajudar o Filtr Game a automatizar recomendações
+              de artistas nacionais de acordo com seus gêneros de interesse e
+              personalidade. Nossa extensão web com gamificação e IA, integrada
+              às principais plataformas de streaming, mapeia o comportamento dos
+              usuários e é capaz classificar usuários de acordo com 16
+              arquétipos de personalidade. Quanto mais artistas diferentes o
+              usuário ouvir, mais pontos pode ganhar para trocar por benefícios
+              diversos. Além disso, os insights gerados pelo Gamusic podem
+              ajudar a Sony a realizar projetos de marketing, desenvolvimento
+              artístico e parcerias comerciais de forma mais assertiva.
             </p>
           </div>
         </div>

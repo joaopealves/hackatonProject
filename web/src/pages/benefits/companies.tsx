@@ -1,24 +1,19 @@
 import React from 'react';
 import '../styles/benefits.css';
+import Businnes from '../../assets/Business deal-cuate.png';
 
 export default function Compaines() {
   return (
     <div className="benefitsContainer">
+      <img src={Businnes} />
       <p className="benefitsTextCompaines">
-        <h2>Vantagens para empresas</h2>
-        Conectamos varejistas e empresas de serviços a uma comunidade engajada
-        de fãs online, maximizando as oportunidades de venda via cashback e
-        criando conexão emocional entre nossos parceiros e nossos ouvintes de
-        forma orgânica. [Política de privacidade - colocar próximo aos campos de
-        preenchimento no cadastro]: A Gamusic tem o compromisso de proteger a
-        sua privacidade. Nós usaremos suas informações pessoais (e-mail e
-        músicas acessadas no Spotify e Youtube) somente para fornecer
-        recomendações personalizadas e fazer o scoring dos pontos para cálculo
-        de cashback. Ocasionalmente, gostaríamos de contatá-lo por e-mail sobre
-        novos assuntos que possam ser do seu interesse. Estou ciente das
-        finalidades para utilização de meus dados pessoais por parte da Gamusic
-        e concordo com os termos deste tratamento descrito. [ao lado de uma
-        caixa de opt-in].
+        <h2>Vantagens para sony e seus artistas</h2>
+        Ampliação de base de ouvintes e alcance para artistas novos ou de nicho.
+        Rentabilização de insights de audiência junto a marcas e players de
+        música. Venda de merchandising e ingressos vinculados ao sistema de
+        pontuação. Para as marcas parceiras: Aproximação com comunidades
+        engajadas de fãs. Oportunidade de vendas via cashback e descontos.
+        Conexão emocional e não intrusiva com consumidores
       </p>
     </div>
   );
