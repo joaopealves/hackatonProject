@@ -1,0 +1,30 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nucleo.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "@tensorflow/tfjs-vis": "^1.4.3",
+    "axios": "^0.21.0",
+    "brain.js": "^2.0.0-beta.2",
+    "dotenv": "^8.2.0",
+    "nexe": "^3.3.7",
+    "nvm": "0.0.4",
+    "pkg": "^4.4.9",
+    "puppeteer": "^5.4.1",
+    "resolve-url": "^0.2.1",
+    "source-map-resolve": "^0.6.0",
+    "x2j": "^0.0.1",
+    "xml-js": "^1.6.11",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
