@@ -6,6 +6,7 @@
   "author": "João Pedro Alves <jotalmeida007@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "nexe": "^3.3.7"
   }
 }

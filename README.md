@@ -32,7 +32,7 @@ Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o y
 
     cd hackatonProject/web -> yarn start
 
-mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
+mas caso não apareça ou esteja usando uma versão antiga, adicione ao package.json
 
 dentro de:
 
@@ -59,9 +59,13 @@ Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o y
 
     cd hackatonProject/server -> node nucleo.js
 
-mas caso não apareça ou esteja usando uma versão antiga, adicione ao packaje.json
+mas caso não apareça ou esteja usando uma versão antiga, adicione ao package.json
 
 dentro de:
+
+<pre>scripts: {
+    "start":"react-scripts start"
+}</pre>
 
 # LinkedIn dos participantes
 
