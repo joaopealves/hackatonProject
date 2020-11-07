@@ -27,15 +27,16 @@ const brain = require('brain.js');
   await page.type('#login-password', process.env.SENHA);
   await page.click('#login-button');
   await page.waitForSelector(
-    '#main > div > div.Root__top-container > div.Root__nav-bar > nav > div.Rootlist > div > div > div:nth-child(3) > a'
+    'html > body > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > nav > div:nth-of-type(2) > div > div:nth-of-type(2) > a > span'
   );
+
   await page.goto('https://open.spotify.com/collection/tracks');
   var index;
   var vetMusTemp = [[]];
   await page.waitForSelector(
     'html > body > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(4) > main > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > section > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(' +
       1 +
-      ') > div > div > div:nth-of-type(2) > div > div > span > span'
+      ') > div'
   );
 
   try {
